@@ -50,17 +50,33 @@ def search_movies(movies):
     for movie in results:
         print(f"{movie["title"]} -- {movie["genre"]} -- {movie["rating"]}")
 
+
+def view_movies(movies):
+    if not movies:
+        print("NO movies in DB")
+        return
+    print("-"*30)
+    for movie in movies:
+        print(f"{movie["title"]} -- {movie["genre"]} -- {movie["rating"]}") 
+    print("-"*30)       
+
 def run_movie_db() :
-    movie = load_movies()
+    movies = load_movies()
 
     while True :
         print("\n MymovieDB")
         print("1. Add movie")
+        print("2. View all Movies")
         print("3. Search Movie")
         print("4. Exit")   
 
         choice = input("Choose an option (1-4): ").strip()
         match choice: 
-            case "1" : add_movies(movie)   
-        
+            case "1" : add_movies(movies)  
+            case "2" : view_movies(movies) 
+            case "3" : search_movies(movies)
+            case "4" : break
+            case _: print("Enter valid choice")       
 
+if __name__ == "__main__":
+    run_movie_db()
