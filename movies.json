@@ -1,0 +1,22 @@
+[
+  {
+    "title": "last samurai",
+    "genre": "action",
+    "rating": 8.0
+  },
+  {
+    "title": "la la land",
+    "genre": "romance",
+    "rating": 8.0
+  },
+  {
+    "title": "intersteller",
+    "genre": "sci fi",
+    "rating": 9.0
+  },
+  {
+    "title": "lord of the rings",
+    "genre": "fantasy",
+    "rating": 9.0
+  }
+]
