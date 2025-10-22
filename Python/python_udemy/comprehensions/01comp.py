@@ -2,7 +2,7 @@
 
 #comprehensions are concise way to crearte lists, sets , dictionaries or generator in python using a single line of code
 
-#where are they are used in real life ?
+#where are they  used in real life ?
 
 # well used in production level code 
 # filtering item/data 
@@ -28,6 +28,25 @@ menu = [
     "Ginger Tea",
 ]
 
-iced_tea = [tea for tea in menu if "Iced" in tea]
+iced_tea = [tea for tea in menu if "Iced" in tea ]
 
 print(iced_tea)  
+
+actors = [
+    "Tom cruise" ,
+    "Tom Holland",
+    "Tom hank",
+    "Daniel day lewis",
+    "Daniel radcliff",
+    "Chris evans",
+    "Chris hemsworth"
+]
+
+actor_1 = [actor_1 for actor_1 in actors if "Tom" in actor_1 ]
+actor_2 = [actor_2 for actor_2 in actors if "Daniel" in actor_2 ]
+actor_3 = [actor_3 for actor_3 in actors if "Chris" in actor_3 ]
+
+
+print(actor_1)
+print(actor_2)
+print(actor_3 )
