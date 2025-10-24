@@ -1,0 +1,64 @@
+{
+  "students": [
+    {
+      "name": "Ron Smith",
+      "id": "S12345",
+      "email": "ron.smith@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62701"
+      },
+      "course": "Computer Science"
+    },
+    {
+      "name": "Emily Johnson",
+      "id": "S12346",
+      "email": "emily.johnson@example.com",
+      "address": {
+        "street": "456 Oak St",
+        "city": "Greenville",
+        "state": "CA",
+        "zip": "95947"
+      },
+      "course": "Mechanical Engineering"
+    },
+    {
+      "name": "Michael Brown",
+      "id": "S12347",
+      "email": "michael.brown@example.com",
+      "address": {
+        "street": "789 Pine St",
+        "city": "Riverside",
+        "state": "TX",
+        "zip": "77001"
+      },
+      "course": "Electrical Engineering"
+    },
+    {
+      "name": "Sophia Davis",
+      "id": "S12348",
+      "email": "sophia.davis@example.com",
+      "address": {
+        "street": "321 Maple St",
+        "city": "Fairview",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "course": "Business Administration"
+    },
+    {
+      "name": "Daniel Wilson",
+      "id": "S12349",
+      "email": "daniel.wilson@example.com",
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Lakeside",
+        "state": "FL",
+        "zip": "33101"
+      },
+      "course": "Biotechnology"
+    }
+  ]
+}

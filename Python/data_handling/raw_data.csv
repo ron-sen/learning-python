@@ -1,0 +1,5 @@
+id,name,email,location,is_active
+201,Rahul,rahul@example.com,Pune,True
+202,Amit,amit@example.com,Chennai,True
+203,Arayn,ary@exampl.com,Bangalore,False
+204,John,john@example.com,Dallas,True
